@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Digital Recruitment Solution</h1>
+    <nav>
+      <ul>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="#">Candidates</a></li>
+        <li><a href="#">Settings</a></li>
+        <li><a href="logout.html">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="search">
+    <h2>Candidate Search</h2>
+    <input type="text" placeholder="Location">
+    <input type="text" placeholder="Job Role">
+    <button onclick="searchCandidates()" class="btn">Search</button>
+  </section>
+  
+  <section id="candidates">
+    <h2>Search Results</h2>
+    <ul id="candidates-list"></ul>
+  </section>
+  
+  
+</body>
+</html>
